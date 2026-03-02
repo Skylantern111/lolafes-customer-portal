@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  /* CHANGED FROM TEAL TO BLACK */
+  --color-brand-teal: #000000; 
+  --color-brand-dark: #0f172a;
+  --color-brand-bg: #f8fafc;
+}
+
+body {
+  @apply bg-brand-bg text-brand-dark font-sans;
+}
